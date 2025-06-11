@@ -1,7 +1,7 @@
 function makeaarons(){
     for(let i = 0; i < 100;i++){
         let aaron = document.createElement('img');
-        aaron.src = 'aaron.jpeg';
+        aaron.src = 'aaron.jpg';
         aaron.classList.add('aaron');
         let x = Math.random()*100;
         let y = Math.random()*100;
@@ -35,4 +35,4 @@ function tick() {
     document.querySelector('h1').textContent = `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
 }
 
-setInterval(tick, 10);
+setInterval(tick, 1000);
